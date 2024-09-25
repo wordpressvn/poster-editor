@@ -1,0 +1,35 @@
+{
+	"name": "wordpressvn/poster-editor",
+	"version": "5.16",
+	"description": "Wrapper for PHP's GD Library for easy image manipulation",
+	"keywords": ["php", "image", "text", "gd"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Anton Lukin",
+			"email": "anton@lukin.me"
+		},
+		{
+			"name": "TienCOP",
+			"email": "support@wordpressvn.com"
+		}
+	],
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "*",
+		"phpcompatibility/php-compatibility": "*"
+	},
+	"suggest": {
+		"ext-gd": "to use GD library based image processing."
+	},
+	"autoload": {
+		"files": [
+			"src/PosterEditor.php"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
